@@ -1,3 +1,9 @@
 {
-  "dependencies": {}
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "rollup": "^3.23.0"
+  },
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs rollup.config.js"
+  }
 }
